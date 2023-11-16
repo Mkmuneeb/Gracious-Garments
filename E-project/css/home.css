@@ -93,9 +93,16 @@ color: rgb(148, 148, 148);
     display: flex;
     justify-content: center;
   }
-@media only screen and (max-width: 600px) {
-.product-slider__content
-{
-    display :none;
+.product-slider__content {
+  display: block;
 }
+
+@media only screen and (max-width: 767px) {
+  /* Hide all product-slider__content divs by default on mobile view */
+  .product-slider__content {
+    display: none;
+  }
+  .product-slider__item.swiper-slide-selected .product-slider__content {
+    display: block;
+  }
 }
