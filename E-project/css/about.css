@@ -10,6 +10,8 @@ i:hover{
 }
 .navbar{
     font-size: 15px;
+        z-index: 1000;
+
 }
 .banner{
     background-repeat: no-repeat;
