@@ -11,6 +11,8 @@ i:hover{
 .navbar{
     font-size: 15px;
     height: 80px;
+        z-index: 1000;
+
    
 }
 .banner-contact{
