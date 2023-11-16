@@ -93,3 +93,9 @@ color: rgb(148, 148, 148);
     display: flex;
     justify-content: center;
   }
+@media only screen and (max-width: 600px) {
+.product-slider__content
+{
+    display :none;
+}
+}
